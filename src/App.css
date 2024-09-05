@@ -1,0 +1,136 @@
+body {
+  background-color: white;
+}
+
+.heading-box {
+  font-size: 15px;
+  border-radius: 3px;
+  background-color: #974EC3;
+  top: 0;
+  left: 120px;
+  width: 140px;
+  height: 50px;
+  color: #EEEEEE;
+  position: absolute;
+  text-align: center;
+
+}
+.dialog-btn{
+  font-size: 15px;
+  border-radius: 7px;
+  background-color: #974EC3;
+  top: 450px;
+  border: none;   
+  font-weight: bold;
+  left: 120px;
+  width: 140px;
+  height: 40px;
+  color: #EEEEEE;
+  position: absolute;
+  text-align: center;
+}
+
+.container {
+  min-height: 95vh;
+  min-width: 80vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.div1 {
+  border-radius: 7px;
+  position: absolute;
+  background-color: #2B2730;
+  padding: 60px;
+  width: 250px;
+  align-items: center;
+  height: 350px;
+}
+
+.gender-div {
+  display: flex;
+  justify-content: space-between;
+}
+.weight-div{
+  width: 150px;
+  margin: 10px;
+  height: 90px;
+  text-align: center;
+  font-weight: bold;
+  color: white;
+  border-radius: 7px;
+  border: 2px solid #974EC3;
+}
+.inside-div{
+  display: flex;
+  padding-left: 15px;
+}
+.height-div{
+  width: 150px;
+  margin: 10px;
+  height: 90px;
+  text-align: center;
+  font-weight: bold;
+  color: white;
+  border-radius: 7px;
+  border: 2px solid #974EC3;
+}
+.weightHeight-div{
+  justify-content: space-evenly;
+  display: flex;
+}
+.subHeading {
+  font-weight: bold;
+  text-align: center;
+  color: white;
+}
+.plus-minus{
+  width: 20px;
+    height:20px;
+    border-radius: 50%;
+    font-size: small;
+    margin-left: 5px ;
+    margin-right: 5px ;
+    background-color: #974EC3;
+    font-weight: bold;
+    border: none;
+    padding: 0px;
+    color: white;
+}
+.gender-Minput {
+  width: 100px;
+  margin: 10px;
+  height: 80px;
+  text-align: center;
+  font-weight: bold;
+  color: white;
+  border-radius: 7px;
+  border: none;
+  background-color: #974EC3;
+}
+.gender-Finput {
+  width: 100px;
+  margin: 10px;
+  height: 80px;
+  text-align: center;
+  font-weight: bold;
+  color: white;
+  border-radius: 7px;
+  border: none;
+  background-color: #974EC3;
+}
+.height-text{
+color: white;
+font-weight: bold;
+font-size: 10px;
+position: relative;
+  bottom: 7px;
+}
+.weight-text{
+  font-size:10px;
+  color: white;
+  font-weight: bold;
+  position: relative;
+  bottom: 7px;
+  }
